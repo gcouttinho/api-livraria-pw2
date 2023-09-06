@@ -11,6 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 
 const connection = require("./database/database");
+console.log(connection);
 
 //CRIAÇÃO DO SERVIDOR COM REQUISIÇÕES E RESPOSTAS
 app.listen(3000, () => {
