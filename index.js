@@ -15,5 +15,5 @@ console.log(connection);
 
 //CRIAÇÃO DO SERVIDOR COM REQUISIÇÕES E RESPOSTAS
 app.listen(3000, () => {
-    console.log('API LIVRARIA RODANDO EM: http://localhost:3000');
+    console.log('API LIVRARIA RODANDO NA PORTA: http://localhost:3000');
 });
