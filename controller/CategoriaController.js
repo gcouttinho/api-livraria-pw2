@@ -1,5 +1,5 @@
 const express = require("express");
-const categoriaModel = require("../model/categoria");
+const categoriaModel = require("../model/Categoria");
 const { json } = require("sequelize");
 const router = express.Router();
 

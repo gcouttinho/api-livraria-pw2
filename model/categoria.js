@@ -2,7 +2,7 @@
 const sequelize = require("sequelize");
 
 //IMPORTAÇÃO DA CONEXÃO  COM BANCO DE DADOS
-const connection = require("../database/database");
+const connection = require("../database/Database");
 
 /**
  * MAPEAMENTO DA TABELA DE CATEGORIA
@@ -16,7 +16,7 @@ const Categoria = connection.define(
     'tbl_categoria',
     {
         codigo_categoria: {
-            type: sequelize.INTEGER(10).UNSIGNED,
+            type: sequelize.INTEGER(10),
             autoIncrement: true,
             primaryKey: true
         },
